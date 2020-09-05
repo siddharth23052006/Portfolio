@@ -2,21 +2,30 @@ h1{
     color:red;
 }
 .header{
-    background-color: lightblue;
+    background-color:#9cc7d6;
     display: flex;
     justify-content: space-between;
 }
 .grid{
-    background-color: lightgreen;
+    background-color: #90dd90;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .footer{
-    background-color: red;
+    background-color: #ff0000;
     display: flex;
     justify-content: flex-end;
 }
 p,h2{
     text-align: center;
+}
+body{
+    background-color: #808080;
+}
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+img{
+    box-shadow: 8px 8px black;
 }
